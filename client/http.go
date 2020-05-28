@@ -177,6 +177,10 @@ func (p *HTTPClient) UpdateStep(ctx context.Context, step *drone.Step) error {
 func (p *HTTPClient) Watch(ctx context.Context, build int64) (bool, error) {
 	uri := fmt.Sprintf(endpointWatch, build)
 	res, err := p.retry(ctx, uri, "POST", nil, nil)
+
+	print(res)
+	print(err)
+
 	if err != nil {
 		return false, err
 	}
