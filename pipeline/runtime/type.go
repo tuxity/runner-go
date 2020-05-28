@@ -9,8 +9,8 @@ import (
 	"io"
 
 	"github.com/drone/drone-go/drone"
-	"github.com/drone/runner-go/manifest"
-	"github.com/drone/runner-go/secret"
+	"github.com/tuxity/runner-go/manifest"
+	"github.com/tuxity/runner-go/secret"
 )
 
 type (

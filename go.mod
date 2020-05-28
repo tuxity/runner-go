@@ -10,6 +10,7 @@ require (
 	github.com/docker/go-units v0.4.0
 	github.com/drone/drone-go v1.2.1-0.20200326064413-195394da1018
 	github.com/drone/envsubst v1.0.2
+	github.com/drone/runner-go v1.6.0
 	github.com/google/go-cmp v0.3.0
 	github.com/hashicorp/go-multierror v1.0.0
 	github.com/natessilva/dag v0.0.0-20180124060714-7194b8dcc5c4

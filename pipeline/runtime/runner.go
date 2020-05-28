@@ -11,12 +11,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/drone/runner-go/client"
-	"github.com/drone/runner-go/environ"
-	"github.com/drone/runner-go/logger"
-	"github.com/drone/runner-go/manifest"
-	"github.com/drone/runner-go/pipeline"
-	"github.com/drone/runner-go/secret"
+	"github.com/tuxity/runner-go/client"
+	"github.com/tuxity/runner-go/environ"
+	"github.com/tuxity/runner-go/logger"
+	"github.com/tuxity/runner-go/manifest"
+	"github.com/tuxity/runner-go/pipeline"
+	"github.com/tuxity/runner-go/secret"
 
 	"github.com/drone/drone-go/drone"
 	"github.com/drone/envsubst"

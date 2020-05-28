@@ -9,9 +9,9 @@ import (
 	"sync"
 
 	"github.com/drone/drone-go/drone"
-	"github.com/drone/runner-go/environ"
-	"github.com/drone/runner-go/logger"
-	"github.com/drone/runner-go/pipeline"
+	"github.com/tuxity/runner-go/environ"
+	"github.com/tuxity/runner-go/logger"
+	"github.com/tuxity/runner-go/pipeline"
 
 	"github.com/hashicorp/go-multierror"
 	"github.com/natessilva/dag"
