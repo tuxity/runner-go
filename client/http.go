@@ -178,8 +178,8 @@ func (p *HTTPClient) Watch(ctx context.Context, build int64) (bool, error) {
 	uri := fmt.Sprintf(endpointWatch, build)
 	res, err := p.retry(ctx, uri, "POST", nil, nil)
 
-	print(res)
-	print(err)
+	p.logger().Tracef(">>>>> res: %s", res)
+	p.logger().Tracef(">>>>> err: %s", err)
 
 	if err != nil {
 		return false, err
